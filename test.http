@@ -1,0 +1,17 @@
+# REST Client extension
+@hostname = http://localhost:5555
+
+GET {{hostname}}/api/series/top5
+
+###
+
+GET {{hostname}}/api/series/top5-protected
+Authorization: Basic carlos pwd12345
+
+###
+
+GET {{hostname}}/api/movies/
+
+###
+
+GET {{hostname}}/api/users/
