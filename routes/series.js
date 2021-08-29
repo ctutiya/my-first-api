@@ -5,8 +5,8 @@ const express = require('express')
 const router = express.Router()
 
 const data = [
-    { 'title': 'Breaking Bad', 'cast': 'Bryan Cranston, Aaron Paul, Anna Gunn' },
     { 'title': 'La Casa de Papel', 'cast': 'Úrsula Corberó, Álvaro Morte, Itziar Ituño' },
+    { 'title': 'Breaking Bad', 'cast': 'Bryan Cranston, Aaron Paul, Anna Gunn' },
     { 'title': 'The Blacklist', 'cast': 'James Spader, Megan Boone, Diego Klattenhoff' },
     { 'title': 'New Amsterdam', 'cast': 'Ryan Eggold, Freema Agyeman, Janet Montgomery' },
     { 'title': 'Cobra Kai', 'cast': 'Ralph Macchio, William Zabka, Xolo Maridueña' }
